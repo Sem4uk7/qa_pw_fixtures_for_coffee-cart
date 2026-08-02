@@ -2,7 +2,7 @@ export function unitPriceFormatStr(
   unitPrice: number,
   unitsNumber: number,
 ): string {
-  return `$${unitPrice.toFixed(2)} x ${unitsNumber}`;
+  return `${unitPrice.toFixed(2)} x ${unitsNumber}`;
 }
 
 export function priceFormatStr(unitPrice: number): string {
